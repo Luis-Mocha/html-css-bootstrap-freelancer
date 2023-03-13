@@ -14,7 +14,7 @@
     content: '';
     display: inline-block;
     width: 30%;
-    border: 0.15rem solid white;
+    border: 0.15rem solid;
     vertical-align: super;
     border-radius: 2px;
 }
