@@ -10,6 +10,9 @@ a {
 .bg-color-footer {
     background-color: rgb(58,84,109);
 }
+.bg-color-copyright {
+    background-color: rgb(44,62,80);
+}
 
 /* --- */
 #section-images,
@@ -46,7 +49,7 @@ a {
 }
 
 /* Icone Footer */
-.fa-brands {
+footer .fa-brands {
     font-size: 2rem;
     border: 1px solid white;
     width: 4.5rem;
@@ -56,7 +59,7 @@ a {
     line-height: 4.5rem;
 }
 @media screen and (max-width:400px) {
-    .fa-brands {
+    footer .fa-brands {
         font-size: 1.5rem;
         width: 3.5rem;
         height: 3.5rem;
