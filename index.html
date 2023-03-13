@@ -20,7 +20,7 @@
   <body>
     <!-- Prima sezione -->
     <div class="bg-color-greenw">
-        <div class="container-sm mx-auto py-3">
+        <div class="container-sm  py-5">
             <!-- avatar img -->
             <img src="./assets/img/avatar.svg" alt="Avatar img" class="d-block col-6 col-sm-3 mx-auto my-2">
             <!-- text -->
@@ -79,12 +79,47 @@
                 </p>
             </div>
             <!-- Bottone download -->
-            <a href="" class="btn btn-outline-light  btn-lg">
+            <a href="" class="btn btn-outline-light btn-lg fs-3">
                 <i class="fa-solid fa-download"></i>
                 Download
             </a>
         </div>
-
+    </div>
+    <!-- Sezione Form -->
+    <div id="section-contact" class="container-sm py-5 text-center">
+        <h2 class="text-uppercase">
+            contact me
+        </h2>
+        <div class="d-flex col-6 col-sm-4 mx-auto">
+            <div class="stellina col">
+                <i class="fa-solid fa-star fs-1 px-1"></i>
+            </div>
+        </div>
+        <!-- FORM -->
+        <form id="contac-form" class="col-9 col-md-12 mx-auto py-4">
+            <!-- name -->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
+                <label for="floatingName" class="fs-4 py-1">Name</label>
+              </div>
+              <!-- email -->
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
+                <label for="floatingEmail" class="fs-4 py-1">Email Address</label>
+            </div>
+            <!-- number -->
+            <div class="form-floating mb-3">
+                <input type="tel" class="form-control" id="floatingNumber" placeholder="Number" required>
+                <label for="floatingNumber" class="fs-4 py-1">Number</label>
+            </div>
+            <!-- message -->
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Scrivici un messaggio" id="floatingMessageArea" style="height: 150px" required maxlength="400"></textarea>
+                <label for="floatingMessageArea" class="fs-4 py-1">Message</label>
+            </div>
+            <!-- Send button -->
+            <input type="submit" value="Send" class="btn btn-success btn-lg my-4 fs-3 d-block">
+        </form> 
     </div>
 
     <!-- Link Bootstrap JS -->
