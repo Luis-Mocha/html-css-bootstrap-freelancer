@@ -1,0 +1,20 @@
+/* UTILITY */
+
+.bg-color-greenw {
+    background-color: rgb(26,188,156);
+}
+
+.width-100 {
+    width: 100%;
+}
+
+
+.stellina::before,
+.stellina::after {
+    content: '';
+    display: inline-block;
+    width: 30%;
+    border: 0.15rem solid white;
+    vertical-align: super;
+    border-radius: 2px;
+}
