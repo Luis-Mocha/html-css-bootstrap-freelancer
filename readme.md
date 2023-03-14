@@ -2,7 +2,7 @@
 
 Utilizzo **Bootstrap 5** per ricreare un template completamente responsive.
 
-[Documentazione UfficialeBootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+[Documentazione Ufficiale Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 ---
 
