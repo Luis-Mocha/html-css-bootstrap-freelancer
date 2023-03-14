@@ -4,6 +4,9 @@ a {
 }
 
 /* UTILITY */
+.bg-color-navbar {
+    background-color: rgb(44,62,80)
+}
 .bg-color-greenw {
     background-color: rgb(26,188,156);
 }
@@ -15,9 +18,34 @@ a {
 }
 
 /* --- */
-#section-images,
+#section-portfolio,
 #section-contact {
     color: rgb(44,62,80);
+}
+
+/* Navbar */
+.bg-body-tertiary {
+    background-color: rgb(44,62,80) !important;
+}
+.navbar-toggler {
+    background-color: rgb(44,62,80);
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    vertical-align:bottom;
+}
+
+@media screen and (min-width:768px) {
+    .nav-link {
+        font-size: 22px;
+    }
+}
+@media screen and (min-width:992px) {
+    .nav-link {
+        font-size: 25px;
+    }
 }
 
 /* Stella */
